@@ -1,0 +1,132 @@
+// styles.scss
+
+// Define variables for colors and other values
+$primary-color: #6c757d;
+$secondary-color: #007bff;
+$font-family: "Helvetica Neue", sans-serif;
+
+html {
+	overflow: hidden;
+
+	// Define styles for the game container
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+
+		// Define styles for the game board
+		.game-board {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: repeat(4, 1fr);
+			border: 1px solid $secondary-color;
+			border-radius: 5px;
+			background-color: $primary-color;
+		}
+
+		// Define styles for the game tiles
+		.game-tile {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100px;
+			height: 100px;
+			border: 1px solid $secondary-color;
+			border-radius: 5px;
+			background-color: $secondary-color;
+			color: $primary-color;
+			font-family: $font-family;
+			font-size: 2rem;
+			font-weight: bold;
+			margin: 5px;
+		}
+
+		// Define styles for the game tile numbers
+		.game-tile-number {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100px;
+			height: 100px;
+			border: 1px solid $secondary-color;
+			border-radius: 5px;
+			background-color: $primary-color;
+			color: $secondary-color;
+			font-family: $font-family;
+			font-size: 2rem;
+			font-weight: bold;
+			margin: 5px;
+		}
+
+		.empty-tile {
+			background-color: #cdc1b4;
+			color: #000;
+		}
+
+		.game-tile-2 {
+			background-color: #eee4da;
+			color: #000;
+		}
+
+		.game-tile-4 {
+			background-color: #ede0c8;
+			color: #000;
+		}
+
+		.game-tile-8 {
+			background-color: #f2b179;
+			color: #000;
+		}
+
+		.game-tile-16 {
+			background-color: #f59563;
+			color: #000;
+		}
+
+		.game-tile-32 {
+			background-color: #f67c5f;
+			color: #000;
+		}
+
+		.game-tile-64 {
+			background-color: #f65e3b;
+			color: #f9f6f2;
+		}
+
+		.game-tile-128 {
+			background-color: #edcf72;
+			color: #f9f6f2;
+		}
+
+		.game-tile-256 {
+			background-color: #edcc61;
+			color: #f9f6f2;
+		}
+
+		.game-tile-512 {
+			background-color: #edc850;
+			color: #f9f6f2;
+		}
+
+		.game-tile-1024 {
+			background-color: #edc53f;
+			color: #f9f6f2;
+		}
+
+		.game-tile-2048 {
+			background-color: #edc22e;
+			color: #f9f6f2;
+		}
+
+		.game-tile-4096 {
+			background-color: #3c3a32;
+			color: #f9f6f2;
+		}
+
+		.game-tile-8192 {
+			background-color: #3c3a32;
+			color: #f9f6f2;
+		}
+	}
+}

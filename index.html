@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>2048</title>
+	<link rel="stylesheet" href="resources/scss/styles.css">
+
+	<script src="resources/js/main.js"></script>
+</head>
+
+<body>
+	<div class="game">
+		<div class="game__header">
+			<div class="game__header__title">
+				<h1>2048</h1>
+			</div>
+			<div class="game__header__score">
+				<p>Score : <span id="score">0</span></p>
+			</div>
+		</div>
+		<div class="game-board">
+			<div class="game-tile empty-tile" data-row="0" data-col="0"></div>
+			<div class="game-tile empty-tile" data-row="0" data-col="1"></div>
+			<div class="game-tile empty-tile" data-row="0" data-col="2"></div>
+			<div class="game-tile empty-tile" data-row="0" data-col="3"></div>
+
+			<div class="game-tile empty-tile" data-row="1" data-col="0"></div>
+			<div class="game-tile empty-tile" data-row="1" data-col="1"></div>
+			<div class="game-tile empty-tile" data-row="1" data-col="2"></div>
+			<div class="game-tile empty-tile" data-row="1" data-col="3"></div>
+
+			<div class="game-tile empty-tile" data-row="2" data-col="0"></div>
+			<div class="game-tile empty-tile" data-row="2" data-col="1"></div>
+			<div class="game-tile empty-tile" data-row="2" data-col="2"></div>
+			<div class="game-tile empty-tile" data-row="2" data-col="3"></div>
+
+			<div class="game-tile empty-tile" data-row="3" data-col="0"></div>
+			<div class="game-tile empty-tile" data-row="3" data-col="1"></div>
+			<div class="game-tile empty-tile" data-row="3" data-col="2"></div>
+			<div class="game-tile empty-tile" data-row="3" data-col="3"></div>
+		</div>
+		<div class="game__footer">
+			<div class="game__footer__new-game">
+				<button id="new-game">Nouvelle partie</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
